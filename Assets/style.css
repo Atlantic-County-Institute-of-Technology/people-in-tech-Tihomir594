@@ -1,0 +1,7 @@
+/* Tihomir Valchev, 12/17/2024 */
+table, th, td {
+  border: 1px solid;
+  width: 50%
+}
+tr:hover {background-color:blanchedalmond}
+
