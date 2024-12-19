@@ -1,7 +1,33 @@
 /* Tihomir Valchev, 12/17/2024 */
 table, th, td {
-  border: 1px solid;
-  width: 50%
+  border: 1px solid brown;
+  width: 10%
+}
+table {
+  width: 50%;
+  Height: 0%
+}
+th, td {
+  padding: 8px
+}
+
+td {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+th {
+  height: 70px;
+  font-size: x-large;
+  background:greenyellow
+  
+}
+body {
+  background: linear-gradient(70deg, blanchedalmond, cyan);
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+img {
+  position: blank;
 }
 tr:hover {background-color:blanchedalmond}
 
