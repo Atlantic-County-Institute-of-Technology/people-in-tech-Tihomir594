@@ -1,0 +1,189 @@
+ 
+
+ #Body_of_house {
+    margin-left: 50%;
+    height:200px;
+    width:275px;
+    border: 5px solid black;
+    background-color: gray;
+    position: absolute;
+    left: -185px;
+    bottom: 350px
+ }
+ #Roof_of_house {
+    margin-left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 158px solid transparent;
+    border-right: 158px solid transparent;
+    border-bottom: 158px solid red;
+    position:absolute;
+    left: -200px;
+    bottom: 560px;
+    z-index:1;
+ }
+ #Window2 {
+   position: absolute;
+   margin-left: 50%;
+   height: 50px;
+   width: 50px;
+   left: -100x;
+   bottom: 471px;
+   z-index: 2;
+   background-color:blue;
+
+ }
+
+ #Window {
+    margin-left: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: -152px;
+    bottom: 470px;
+    z-index: 1;
+    background-color:blue;
+ }
+
+ #Door {
+   margin-left: 50%;
+   height: 80px;
+   width: 50px;
+   position: absolute;
+   background-color: brown;
+   bottom: 355px;
+   z-index:2;
+   left: -68px;
+ }
+
+#Door_knob {
+   margin-left: 50%;
+   height: 15px;
+   width: 15px;
+   position: absolute;
+   border-radius: 50%;
+   z-index: 3;
+   bottom: 388px;
+   background-color: yellow;
+   left: -34px;
+}
+
+#Chimney {
+   margin-left: 50%;
+   position: absolute;
+   height:100px;
+   width:28px;
+   bottom: 600px;
+   left: 30px;
+   background-color: brown;
+}
+
+#one_fourth_of_first_window {
+   margin-left: 50%;
+    height: 50px;
+    width: 5px;
+    position: absolute;
+    left: -131px;
+    bottom: 470px;
+    z-index: 1;
+    background-color:black;
+}
+
+#two_fourth_of_first_window {
+   margin-left: 50%;
+    height: 49px;
+    width: 5px;
+    position: absolute;
+    left: -130px;
+    bottom: 470px;
+    z-index: 1;
+    background-color:black;
+    rotate: 90deg;
+}
+
+#one_half_of_second_window {
+   margin-left: 50%;
+    height: 49px;
+    width: 5px;
+    position: absolute;
+    left: 30px;
+    bottom: 471px;
+    z-index: 2;
+    background-color:black;
+    rotate: 90deg;
+}
+
+#second_half_of_second_window {
+   margin-left: 50%;
+    height: 50px;
+    width: 5px;
+    position: absolute;
+    left: 30px;
+    bottom: 471px;
+    z-index: 2;
+    background-color:black;
+}
+
+#Sun {
+   height: 200px;
+   width: 200px;
+   position: absolute;
+   border-radius: 50%;
+   z-index: 4;
+   bottom: 750px;
+   background-color: yellow;
+   left: -34px;
+}
+#Sun_part {
+   height: 100px;
+   width: 15px;
+   position: absolute;
+   z-index: 3;
+   bottom: 645px;
+   background-color: orange;
+   left: 30px;
+}
+
+#Sun_part2 {
+   height: 100px;
+   width: 15px;
+   position: absolute;
+   z-index: 3;
+   bottom: 665px;
+   background-color: orange;
+   left: 150px;
+   rotate: -30deg;
+}
+
+#Sun_part3 {
+   height: 100px;
+   width: 15px;
+   position: absolute;
+   z-index: 3;
+   bottom: 760px;
+   background-color: orange;
+   left: 210px;
+   rotate: 110deg;
+}
+
+#Sky {
+   height:600px;
+   width: 1953px;
+   bottom: 400px;
+   position: absolute;
+   background-color:aqua;
+   rotate:180deg;
+   z-index: -1;
+   left: -50px;
+}
+
+#Grass {
+   height:600px;
+   width: 1953px;
+   bottom: -200px;
+   position: absolute;
+   background-color:green;
+   rotate:180deg;
+   z-index: -1;
+   left: -50px;
+}
